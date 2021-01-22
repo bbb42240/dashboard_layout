@@ -1,0 +1,53 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none !important;
+    display: block;
+    color: $black;
+}
+html{
+    font-size: $font-size-base;
+}
+body{
+    font-family: $font-family-base;
+    color: $black;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+code{
+    color: $primary;
+    background: $secondary;
+    padding: 2px 4px;
+}
+.bg-primary{
+    background-color: $primary;
+}
+.line-height-1{
+    line-height: 1;
+}
+.font-size{
+    &-md{
+        font-size: $font-size-md;
+    }
+    &-sm{
+        font-size: $font-size-sm;
+    }
+    &-base{
+        font-size: $font-size-base;
+    }
+}
+.bg-color{
+    background-color: $secondary;
+}
+.material-icons {
+    vertical-align: bottom;
+  }
